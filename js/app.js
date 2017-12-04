@@ -279,6 +279,8 @@ window.addEventListener('load', function() {
       ]);
 
       var options = {'title': 'Rating otorgado por las alumnas a sus Jedi Master',
+        'width': 500,
+        'height': 300,
         'is3D': true};
 
       var chart = new google.visualization.PieChart(document.getElementById('jedi-chart'));
